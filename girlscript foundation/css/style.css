@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto&display=swap');
+
+
+body{
+     overflow-x:hidden;
+     border-bottom:0px;
+     margin:0px;
+     padding: 0px;
+}
+nav 
+{
+     
+}
+nav a header
+{
+    margin-top:10px;
+    color:white;
+}
+nav .navbar-nav .nav-item
+{
+     color:white;
+}
+.navbar-nav
+{
+     color:white;
+}
+#navbarNavAltMarkup .navbar-nav .nav-item
+{
+     color:white;
+     padding-right:13px;
+     padding-left:10px;
+
+}
+.sample
+{
+border:2px solid white;
+border-radius:6%;
+text-align:center;
+
+}
+.active 
+{
+     border-bottom:1px solid whitesmoke;
+     border-bottom-width:1px;
+     padding-bottom:15px;
+     padding-right:45px;
+     border-start-end-radius: 1px;
+}
+
+
+
+@media screen and (max-width:1070px)
+{
+   body
+   {
+     margin:0;
+     padding:0;
+   }
+   .navbar-nav 
+   {
+        margin-right:0px;
+   }
+}
+
+#home-section
+{
+
+ background-repeat:none;
+ background-size:cover;
+ background-attachment: fixed;
+ min-height: 550px;   
+}
+#home-section .dark-overlay
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:550px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+}
+#home-section .home-inner 
+{
+    padding-top:210px;
+}
+
+#footer-section
+{
+ background-image: url('https://static-news.moneycontrol.com/static-mcnews/2019/08/srinagar-jammu-kashmir-1-770x433.jpg');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment: fixed;
+ min-height: 300px;
+ min-width:100%;
+ height:100%;
+ 
+}
+#footer-section .dark-overlay-1
+{
+    position:absolute;
+    bottom:5;
+    left:0;
+    width:100%;
+    min-height:300px;
+    background:rgba(0,0,0,0.7);
+    
+}
+#footer-section .home-1 
+{
+    padding-top:10px;
+}
+
+#image-text
+{
+     color:white;
+}
+.section-divide
+{
+     color:white;
+     padding:10px;
+     text-decoration: none;
+     text-align:left;
+     list-style-type: none;
+}
+.section-divide a{
+     text-decoration: none;
+     color:white;
+}
+.text-3 a
+{
+     
+     text-decoration: none;
+     color:white;
+}
+.year
+{
+     color:white;
+     font-size:14px;
+}
+.sample-4 a i
+{
+     color:white;
+}
+@media screen and (max-width:1178px)
+{
+     #footer-section .dark-overlay-1
+     {
+          bottom:20;
+     }
+     #footer-section
+     {
+          min-height:800px;
+     }
+     .s-1
+     {
+          margin-right:0%;
+          margin-left:0;
+     }
+     .s-2
+     {
+          margin-left:40px;
+     }
+
+     .s-3
+     {
+          margin-left:40px;
+     }
+     .f-2
+     {
+          text-align:right
+     }
+     #font-2
+     {
+          text-align:center;
+     }
+}
+
+
+#gallery-section
+{
+   min-width:100%;
+width:100%;
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment: fixed;
+ min-height: 400px;
+ background-position:center;   
+}
+#gallery-section .dark-overlay
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:400px;
+    background:rgba(0,0,0,0.8);
+    color:white;
+}
+#gallery-section .home-inner 
+{
+    padding-top:100px;
+}
+
+@media screen and (max-width:682px) 
+{
+     .sponser .row .col-sm
+     {
+          margin-left:70px;
+     }
+}
+
+@media screen and (max-width:386px)
+{
+     .sponser .row .col-sm
+     {
+          margin-right:30px;
+     }
+}
+
+@media screen and (max-width:682px) 
+{
+     .sponser .row .col-sm
+     {
+          margin-left:40px;
+     }
+}
+
+
+@media screen and (max-width:360px) 
+{
+     .sponser .row .col-sm
+     {
+          margin-left:20px;
+     }
+     nav 
+
+}
+
+
+@media screen and (max-width:320px) 
+{
+
+body{
+     padding:0;
+     margin:0;
+}
+     .sponser .row .col-sm
+     {
+          margin-left:20px;
+     }
+
+     nav 
+{
+ margin:0px;    
+}
+}
+
+
+@media screen and (max-width:586px)
+{
+     #gallery-section .home-inner h2{
+          font-size:80px;
+     }
+} 
+
+
+@media screen and (max-width:406px)
+{
+     #gallery-section .home-inner h2{
+          font-size:60px;
+          margin-top:40px;
+     }
+} 
+
+@media screen and (max-width:320px)
+{
+ .nav a header 
+ {
+      margin-left:10px;
+ }
+}
+
+.contain {
+     position: relative;
+     width: 50%;
+   }
+   
+   .image {
+     display: block;
+     width: 100%;
+     height: auto;
+   }
+   
+   .overlays {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: black;
+   }
+   
+   .contain:hover .overlays {
+     opacity: 0.7;
+   }
+   
+   .t33 {
+     color: white;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: center;
+   }
+
+   
+#secondrow
+{
+  position:relative;
+ background:url("image/lights.jpg");
+ background-repeat:none;
+ background-size:cover;
+ background-attachment: fixed;
+ min-height: 250px;
+ background-position: 0,-300px;   
+}
+#secondrow .dark-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:250px;
+    background:rgba(0,0,0,0.7);
+}
+
+
+#video-play
+{
+  position:relative;
+ 
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:0 -200px;
+  background-attachment: fixed;
+  min-height: 200px;    
+}
+#video-play .dark-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:200px;
+  background:rgba(0,0,0,0.3);
+  color:white;
+  text-align:center;
+}
+
+#video-play i{
+  color:white;
+}
+
+.s .active{
+     margin-right:2px;
+}
+
+.sample5
+{
+     width:600px;
+}
+
+#sample3
+{
+     font-family: 'Roboto', sans-serif;
+
+}
+#sample4 
+{
+     font-family: 'Nunito Sans', sans-serif;
+}
+
+#sample6
+{
+     font-family: 'Assistant', sans-serif;
+}
+#sample7 
+{
+     font-family: 'IBM Plex Sans', sans-serif;
+}
+#sample8
+{
+     font-family: 'Rubik', sans-serif;
+}
+#sample9
+{
+     font-family: 'Roboto Condensed', sans-serif;
+}
+#sample10
+{
+     font-family: 'Questrial', sans-serif;
+}
+#sample11
+
+{
+     font-family: 'Russo One', sans-serif;
+}
+
+#sample12
+{
+     font-family: 'Blinker', sans-serif;
+}
+
+.image {
+     position: relative;
+ 
+
+
+ }
+ .image .card-img-top {
+     width: 100%;
+     vertical-align: top;
+ }
+ .image:after {
+     content: '\A';
+     position: absolute;
+     width: 100%; height:100%;
+     top:0; left:0;
+     background:rgba(0,0,0,0.6);
+     opacity: 0;
+     transition: all 1s;
+     -webkit-transition: all 0s;
+ }
+ .image:hover:after {
+     opacity: 1;
+ }
+
+ #card-imge
+ {
+ -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+ }
+
+ #sample12
+ {
+      font-size:20px;
+      font-family: 'Nunito Sans', sans-serif;
+ }
+
+ .zoom {
+     transition: transform .2s;
+
+     margin: 0 auto;
+   }
+   
+   .zoom:hover {
+     -ms-transform: scale(1.2); /* IE 9 */
+     -webkit-transform: scale(1.2); /* Safari 3-8 */
+     transform: scale(1.2); 
+   }
+   .sample13
+   {
+     font-family: 'Barlow', sans-serif;
+   }
+   .sample14
+   {
+        font-size:30px;
+        font-family: 'Catamaran', sans-serif;
+   }
+   .sample119
+   {
+        font-size:70px;
+        font-family: 'Acme', sans-serif;
+   }
+   .sample15
+   {
+        font-size:20px;
+   }
+   @media screen and (max-width:558px)
+   {
+    #sample3
+    {
+         font-size:20px;
+    }
+    #about-body
+    {
+         margin-top:60px;
+    }
+   } 
+@media screen and (min-width:977px)
+{
+     .sample18
+     {
+          font-size:30px;
+     }
+}
+ 
+   
