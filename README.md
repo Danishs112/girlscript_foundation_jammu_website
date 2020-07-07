@@ -1,1 +1,1 @@
-This is the website that I have created for GirlScript Foundation Jammu Chapter in HTML,CSS,JS,Bootstrap,PHP and MYSQL.
+This is the website that I have created for GirlScript Foundation Jammu Chapter in HTML,CSS,JS,Bootstrap,PHP and MYSQL.You need to download the entire folder and open it and after that open index.html to view my work 
